@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="implementando arraylist">
+    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="implementando toString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
@@ -148,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694485932020</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implementando toString">
+      <option name="closed" value="true" />
+      <created>1694486916139</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694486916139</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +181,7 @@
     <MESSAGE value="implementando interface" />
     <MESSAGE value="implementando filtro recomendação" />
     <MESSAGE value="implementando arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando arraylist" />
+    <MESSAGE value="implementando toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando toString" />
   </component>
 </project>

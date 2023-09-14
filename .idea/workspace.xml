@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="integrando Gson">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="Try catch">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/excecao/ErroDeConversaoDeAnoEception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/arman/OneDrive/Documentos/curso/java/dependencia/gson-2.10.1.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arman/OneDrive/Documentos/curso/java/dependencia/gson-2.10.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.screenmatch.excecao" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.PrincipalComBusca">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.principal.Principal" />
@@ -245,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694642379706</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Try catch">
+      <option name="closed" value="true" />
+      <created>1694649564126</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694649564126</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +298,7 @@
     <MESSAGE value="compare" />
     <MESSAGE value="integrando API hhtp" />
     <MESSAGE value="integrando Gson" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrando Gson" />
+    <MESSAGE value="Try catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try catch" />
   </component>
 </project>

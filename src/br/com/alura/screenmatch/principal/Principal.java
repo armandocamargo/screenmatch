@@ -7,14 +7,12 @@ import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Principal {
     public static void main(String[] args) {
-
         Filme meuFilme = new Filme("O poderoso chefão", 1970);
         meuFilme.setDuracaoEmMinutos(180);
-        System.out.println("Duração do filme: " + meuFilme.getDurcaoEmMinutos());
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
@@ -31,7 +29,7 @@ public class Principal {
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorEpisodio(50);
-        System.out.println("Duração para maratonar " + lost.getNome() + ": " + lost.getDurcaoEmMinutos());
+        System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
         Filme outroFilme = new Filme("Avatar", 2023);
         outroFilme.setDuracaoEmMinutos(200);
@@ -60,9 +58,9 @@ public class Principal {
         listaDeFilmes.add(meuFilme);
         listaDeFilmes.add(outroFilme);
         System.out.println("Tamanho da lista " + listaDeFilmes.size());
-        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
-        System.out.println("toString do filme: " + listaDeFilmes.get(0).toString());
+        System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
 
 
     }

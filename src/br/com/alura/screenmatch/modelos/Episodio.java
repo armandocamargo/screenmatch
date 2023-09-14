@@ -2,7 +2,7 @@ package br.com.alura.screenmatch.modelos;
 
 import br.com.alura.screenmatch.calculos.Classificavel;
 
-public class Episodio  implements Classificavel {
+public class Episodio implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;
@@ -47,6 +47,5 @@ public class Episodio  implements Classificavel {
         } else {
             return 2;
         }
-
     }
 }

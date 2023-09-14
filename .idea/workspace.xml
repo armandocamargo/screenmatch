@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="Try catch">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/excecao/ErroDeConversaoDeAnoEception.java" afterDir="false" />
+    <list default="true" id="6ade9277-e81e-4b8b-b6cc-c18ebc858628" name="Changes" comment="Gerando arquivos">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/excecao/ErroDeConversaoDeAnoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/excecao/ErroDeConversaoDeAnoEception.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694649564126</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Gerando arquivos">
+      <option name="closed" value="true" />
+      <created>1694655784626</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694655784627</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +300,7 @@
     <MESSAGE value="integrando API hhtp" />
     <MESSAGE value="integrando Gson" />
     <MESSAGE value="Try catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try catch" />
+    <MESSAGE value="Gerando arquivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerando arquivos" />
   </component>
 </project>
